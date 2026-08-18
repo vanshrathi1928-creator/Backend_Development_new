@@ -1,0 +1,16 @@
+
+
+<body>
+    <h2>This belong to <%= data.name %>
+    </h2>
+    <button>Follow</button>
+    <button>Message</button>
+    <p>Followers : <%=  data.followers%>
+    Following  : <%=  data.following %></p>
+    <hr>
+    <% for( let post of posts ) { %>
+        <img src="posts.image" alt="some img">
+    <% } %>
+</body>
+
+</html>
